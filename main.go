@@ -4,8 +4,8 @@ import (
 	"log"
 
 	"github.com/gofiber/fiber/v2"
-	"github.com/ohmtanawin02/go-postgres-basic/have-api/config"
-	"github.com/ohmtanawin02/go-postgres-basic/have-api/handler/product"
+	"github.com/ohmtanawin02/go-postgres-basic/config"
+	"github.com/ohmtanawin02/go-postgres-basic/handler/product"
 )
 
 func main() {

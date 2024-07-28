@@ -5,8 +5,8 @@ import (
 	"database/sql"
 	"errors"
 
-	"github.com/ohmtanawin02/go-postgres-basic/have-api/config"
-	"github.com/ohmtanawin02/go-postgres-basic/have-api/models"
+	"github.com/ohmtanawin02/go-postgres-basic/config"
+	"github.com/ohmtanawin02/go-postgres-basic/models"
 )
 
 func GetProducts(ctx context.Context, name string, page, limit int) (models.ProductsResponse, error) {

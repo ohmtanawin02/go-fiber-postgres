@@ -5,7 +5,7 @@ import (
 	"strconv"
 
 	"github.com/gofiber/fiber/v2"
-	"github.com/ohmtanawin02/go-postgres-basic/have-api/models"
+	"github.com/ohmtanawin02/go-postgres-basic/models"
 )
 
 func GetProductsHandler(c *fiber.Ctx) error {

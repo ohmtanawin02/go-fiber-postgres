@@ -4,7 +4,7 @@ import (
 	"context"
 	"log"
 
-	"github.com/ohmtanawin02/go-postgres-basic/have-api/config"
+	"github.com/ohmtanawin02/go-postgres-basic/config"
 )
 
 func productExistsByID(ctx context.Context, id int) bool {
